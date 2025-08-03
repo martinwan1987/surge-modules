@@ -1,0 +1,32 @@
+#!name=BlockMediaPlatform
+#!desc=Block Douyin/TikTok and WeChat Video Channel via RejectGame group
+
+[Rule]
+
+# ===== Douyin / TikTok =====
+DOMAIN-SUFFIX,tiktok.com,RejectGame
+DOMAIN-SUFFIX,tiktokcdn.com,RejectGame
+DOMAIN-SUFFIX,tiktokv.com,RejectGame
+DOMAIN-SUFFIX,tiktokapi.com,RejectGame
+DOMAIN-SUFFIX,muscdn.com,RejectGame
+DOMAIN-SUFFIX,byteoversea.com,RejectGame
+DOMAIN-SUFFIX,snssdk.com,RejectGame
+DOMAIN-SUFFIX,ibytedtos.com,RejectGame
+DOMAIN-SUFFIX,bytecdntp.com,RejectGame
+DOMAIN-SUFFIX,tiktokd.net,RejectGame
+DOMAIN-SUFFIX,tik-tokapi.com,RejectGame
+DOMAIN-SUFFIX,tiktokvstatic.com,RejectGame
+DOMAIN-SUFFIX,tiktokmusic.me,RejectGame
+DOMAIN-SUFFIX,sgpstatp.com,RejectGame
+
+# ===== WeChat Video Channels =====
+DOMAIN,vweixinf.tc.qq.com,RejectGame
+DOMAIN,vweixinthumb.tc.qq.com,RejectGame
+DOMAIN,wxsnsdythumb.tc.qq.com,RejectGame
+DOMAIN,wxsnsdyupload.tc.qq.com,RejectGame
+DOMAIN,vd.l.qq.com,RejectGame
+DOMAIN,mpvideo.qpic.cn,RejectGame
+DOMAIN-SUFFIX,video.qq.com,RejectGame
+DOMAIN-SUFFIX,wx.qlogo.cn,RejectGame
+DOMAIN-SUFFIX,weishi.qq.com,RejectGame
+DOMAIN-SUFFIX,wechat.com,RejectGame
