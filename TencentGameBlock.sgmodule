@@ -1,5 +1,5 @@
-#!name=TencentGameBlock
-#!desc=Block Tencent Game Domains with policy group
+#!name=BlockTencentGame
+#!desc=Block Tencent Games (e.g. 王者荣耀, 暗区突围) via RejectGame group
 
 [Rule]
 DOMAIN,igamecj.qq.com,RejectGame
@@ -8,3 +8,5 @@ DOMAIN,speed.qq.com,RejectGame
 DOMAIN,pvp.qq.com,RejectGame
 DOMAIN,gp.qq.com,RejectGame
 DOMAIN-SUFFIX,igamecj.com,RejectGame
+DOMAIN-SUFFIX,qcloudcdn.com,RejectGame
+DOMAIN-SUFFIX,tencentcontent.com,RejectGame
